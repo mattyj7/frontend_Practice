@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Hello CodeSandbox</h1>
       <Home />
     </div>
   );

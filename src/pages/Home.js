@@ -1,9 +1,11 @@
 import react from "react";
+import Login from "../components/Login";
 
 const Home = () => {
     return (
-        <div>
-            <h2>Home Welcome</h2>
+        <div className="Home">
+            <h2>Welcome</h2>
+            <Login />
         </div>
     )
 }
