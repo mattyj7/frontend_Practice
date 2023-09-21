@@ -31,5 +31,18 @@ body, h1, h2, h3, h4 {
   gap: 20px;
   justify-content: center;
   flex-direction: column;
-  padding: 50px 30px 50px 30px;
+  padding: 50px 50px 50px 50px;
+}
+
+.login-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.login-btn button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
 }
